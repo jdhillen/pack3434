@@ -1,4 +1,4 @@
-# [WP-Boilerplate](https://github.com/jdhillen/wp-boilerplate) License
+# [Pack 3434](https://github.com/jdhillen/pack3434) License
 
 ## MIT License
 
