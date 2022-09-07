@@ -1,0 +1,40 @@
+//==================================================================================================
+// ---- Styles ----
+//==================================================================================================
+
+// New Structure - https://sass-guidelin.es/#architecture
+
+// ==|== Vendor ====================================================================================
+@import 'vendor/normalize';
+
+// ==|== Helpers ===================================================================================
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/utils';
+
+// ==|== Base ======================================================================================
+@import 'base/base-styles';
+@import 'base/fonts';
+@import 'base/typography';
+@import 'base/html-elements';
+
+// ==|== Layout ===================================================================================
+@import 'layout/grid';
+@import 'layout/spacing';
+@import 'layout/media-queries';
+@import 'layout/wordpress';
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/sidebar';
+@import 'layout/footer';
+
+// ==|== Components ================================================================================
+@import 'components/buttons';
+@import 'components/code';
+@import 'components/tables';
+@import 'components/forms';
+@import 'components/lists';
+
+// ==|== Pages =====================================================================================
+@import 'pages/style-guide';
