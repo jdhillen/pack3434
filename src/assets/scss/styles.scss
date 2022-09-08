@@ -6,35 +6,19 @@
 
 // ==|== Vendor ====================================================================================
 @import 'vendor/normalize';
+@import 'vendor/skeleton';
 
 // ==|== Helpers ===================================================================================
-@import 'abstracts/variables';
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
-@import 'abstracts/utils';
-
-// ==|== Base ======================================================================================
-@import 'base/base-styles';
-@import 'base/fonts';
-@import 'base/typography';
-@import 'base/html-elements';
+@import 'colors';
+@import 'typography';
+@import 'global';
 
 // ==|== Layout ===================================================================================
-@import 'layout/grid';
-@import 'layout/spacing';
-@import 'layout/media-queries';
-@import 'layout/wordpress';
+@import 'layout/footer';
 @import 'layout/header';
 @import 'layout/nav';
 @import 'layout/sidebar';
-@import 'layout/footer';
-
-// ==|== Components ================================================================================
-@import 'components/buttons';
-@import 'components/code';
-@import 'components/tables';
-@import 'components/forms';
-@import 'components/lists';
+@import 'layout/wordpress';
 
 // ==|== Pages =====================================================================================
 @import 'pages/style-guide';

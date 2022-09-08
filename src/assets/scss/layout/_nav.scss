@@ -2,7 +2,44 @@
 // ---- Navigation ----
 //==================================================================================================
 
-.nav {}
+.nav {
+  height: 44px;
+
+  ul li{
+    display: inline;
+  }
+
+  ul {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+    li {
+      margin-bottom: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+
+      a {
+        color: $white;
+        border-bottom: none;
+        overflow: visible;
+        padding: 0.75em 0 0.77em 0;
+        background-color: $blue;
+        padding: 10px 35px;
+        font-weight: 400;
+      }
+
+      a:hover {
+        color: $blue;
+        background-color: $gold;
+      }
+    }
+  }
+}
 
 .menu {}
 

@@ -27,31 +27,34 @@
 
 	<body <?php body_class(); ?>>
 
-		<!-- header -->
-		<header class="header" role="banner">
+    <!-- wrapper -->
+    <div class="wrapper">
 
-			<div class="container">
-				<div class="row">
+      <!-- header -->
+      <header class="header" role="banner">
 
-					<!-- logo -->
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Logo" class="logo-img">
-						</a>
-					</div>
-					<!-- /logo -->
+        <div class="container">
+          <div class="row">
+            <div class="twelve columns">
 
-					<!-- nav -->
-					<nav class="nav" role="navigation">
-						<?php html5blank_nav(); ?>
-					</nav>
-					<!-- /nav -->
+              <div class="header__top">
+                <div class="header__top--left">
+                  <a href="<?php echo home_url(); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pack_numbers.png" alt="Pack 3434" class="logo-img">
+                  </a>
+                </div>
+                <div class="header__top--right">On my honor, I will do my best to do my duty to God and my country and to obey the Scout Law; To help other people at all times; To keep myself physically strong, mentally awake and morally straight.</div>
+              </div>
 
-				</div>
-			</div>
-		</header>
-		<!-- /header -->
+              <!-- nav -->
+              <nav class="nav" role="navigation">
+                <?php html5blank_nav(); ?>
+              </nav>
+              <!-- /nav -->
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- /header -->
 
-		<!-- wrapper -->
-		<div class="container">
+    

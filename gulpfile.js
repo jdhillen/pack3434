@@ -16,7 +16,7 @@ const uglify = require('gulp-uglify');
 // Project
 const PROJECT = {
   NAME: 'wp-boilerplate', // Name of your Project
-  URL: 'URL_GOES_HERE', // URL of your Project
+  URL: 'pack3434.local', // URL of your Project
   WATCH: './src/**/*.php', // Path to watch for php template changes
   DEST: './dist/'
 };

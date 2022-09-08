@@ -2,4 +2,12 @@
 // ---- Footer ----
 //==================================================================================================
 
-.footer {}
+.footer {
+  flex: 0 1 80px;
+  background-color: $blue;
+  text-align: center;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -3,9 +3,47 @@
 //==================================================================================================
 
 // Header container
-.header {}
+.header {
+  flex: 0 1 auto;
+  background-color: $blue;
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0;
+
+    &--left {
+      flex: 1;
+      text-align: center;
+
+      @media (min-width: 750px) {
+        flex: 0.5;
+        text-align: left;
+      }
+    }
+
+    &--right {
+      flex: 0.5;
+      text-align: right;
+      color: $white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      display: none;
+
+      @media (min-width: 750px) {
+        display: flex;
+      }
+    }
+  }
+}
 
 // Logo
-.logo {}
+.logo {
+  width: 250px;
+}
 
-.logo-img {}
+.logo-img {
+  width: 250px;
+  height: auto;
+}
